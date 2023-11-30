@@ -40,21 +40,12 @@ body {
 }
 
 
-
-
-
-/******************************************************/
-/* styling voor de small-screen versie van de website */
-/******************************************************/
-
 /*************/
 /* DE HEADER */
 /*************/
 header {
-	min-height: 4em;
-	padding: 0 1em;
+	padding: 0 2em;
 	background-image: var(--header-gradient);
-	line-height: 1;
 
 	display: flex;
 	justify-content: space-between;
@@ -70,68 +61,20 @@ header a {
 	text-decoration: none;
 }
 
-.pagina1 article:first-of-type {
-	background-image: url("images/zuidas.jpeg"); /*wrm wekt dit niet*/
-	background-color: red;
-}
-
-
-
-/********/
-/* LOGO */
-/********/
-header>a:first-of-type {
-	display: grid;
-	grid-template-columns: min-content min-content;
-	grid-gap: .25em;
-	align-items: center;
-
-	font-weight: bold;
-}
 
 header>a:first-of-type img {
 	height: 3em;
 }
 
 
-
-
-
-/**********/
-/* FAVO's */
-/**********/
-header>a:last-of-type {
-	display: flex;
-	align-items: center;
-	column-gap: .25em;
-}
-
-/* link icon */
-header>a:last-of-type img {
-	width: auto;
-	height: 2em;
-}
-
-
-
-
-
-/*****************/
-/* BEIDE BUTTONS */
-/*****************/
 header button {
 	padding: .5em;
-
 	display: flex;
-	align-items: center;
 	gap: .25em;
-
-	appearance: none;
+	font-size: 1em;
 	background-color: var(--button-background);
 	border: none;
 	border-radius: .25em;
-	font: inherit;
-	text-align: center;
 	color: var(--button-color);
 }
 
@@ -139,39 +82,22 @@ header button img {
 	height: 1em;
 }
 
-
-
-/***************/
-/* MENU BUTTON */
-/***************/
-header>button {
-	/* JOUW CODE HIER - stap 3 */
+/*header>button {
 	order: -1;
-}
+} voor als je de menu en het logo van plek wil laten wisselen*/ 
 
 
-
-/***************/
-/* SLUIT BUTTON */
-/***************/
-nav button {
+nav button { 
+	/* Sluit button */
 	justify-self: start;
 }
 
-
-
-
-
-/************/
-/* HET MENU */
-/************/
-nav {
+nav {   /*menu*/
 	padding: 1em;
-
 	display: grid;
 	align-content: start;
 	gap: 1em;
-
+	font-weight: bold;
 	background-image: var(--menu-gradient);
 
 	position: fixed;
@@ -180,39 +106,18 @@ nav {
 	top: 0;
 	bottom: 0;
 
-	translate: -100% 0%;
+	translate: 100% 0%;
 
-	transition: translate .3s;
+	transition: translate .5s;
 }
 
 nav.toonMenu {
 	translate: 0% 0%;
 }
 
-
-
-
-
-/*******************/
-/* LIJST MET LINKS */
-/*******************/
-nav ul {
-	margin: 0;
-	padding: 0em;
-	list-style: none;
-}
-
-
-
-/************************/
-/* EEN LINK IN DE LIJST */
-/************************/
 nav a {
-	/* icon en tekst met gap-je naast elkaar */
 	display: flex;
-	align-items: center;
 	column-gap: .25em;
-
 	border-bottom: solid 1px var(--menu-border);
 }
 
@@ -226,80 +131,53 @@ nav a.active {
 }
 
 
-
-
-
-/****************************************************************/
-/* styling voor de header als de browser minimaal 38em breed is */
-/****************************************************************/
-@media (min-width:38em) {
+@media (min-width:38em) {  /*aanpassingen voor groot scherm*/
 	header>button {
-		/* JOUW CODE HIER - stap 6 */
 		display: none;
 	}
 
 	nav {
-		/* JOUW CODE HIER - stap 7 */
 		position: static;
 		translate: unset;
 		padding: 0;
-
 		background: none;
 	}
 
 	nav button {
-		/* JOUW CODE HIER - stap 6 */
 		display: none;
 	}
 
 	nav ul {
-		/* JOUW CODE HIER - stap 8 */
 		display: flex;
-		gap: 1em;
+		gap: 3em;
+		list-style: none;
+		margin: 0;
+		padding: 0em;
+		padding-right: 1em;
 	}
 
 	nav a {
-		/* JOUW CODE HIER - stap 9 */
-		flex-direction: column;
-
 		border: none;
 	}
 
-	header>a:last-of-type {
-		/* JOUW CODE HIER - stap 9 */
-		flex-direction: column;
-	}
 }
-
-
-
-
-
-/****************************************************************/
-/* styling voor de header als de browser minimaal 57em breed is */
-/****************************************************************/
-@media (min-width:57em) {
-
-	header>a:last-of-type,
-	nav a {
-		/* JOUW CODE HIER - stap 10 */
-		flex-direction: row;
-	}
-}
-
-
-
-
 
 /***********/
 /* CONTENT */
 /***********/
+.pagina1 main{
+	display: grid;
+	background-color: #fff;
+}
 
 main {
-	display: grid;
 	gap: 1em;
 	grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
 	margin: 2em;
+}
+
+.pagina1 main{
+	display: grid;
 }
 
 article:first-child {
@@ -307,38 +185,86 @@ article:first-child {
 	background-color: #fff;
 }
 
-article {
-	background-color:gainsboro;
-	padding: 0.5em 0 0.5em 1em}
-
-main article img {
-	width: auto;
-	height: 5em;
+.pagina1 article {
+	background-color:rgb(238, 234, 234);
+	padding: 0.5em 1em 0.5em 1em;
 }
 
-.Pagina2 main {
-	grid-template-columns: 1fr;
+.pagina1 article:first-of-type {
+	background-image: url("../images/huisjes.webp"); 
+	background-color: lightskyblue;
+	background-size: cover;
+	box-shadow: none;
+	display: flex;
 }
 
-a:hover{
-	color: red;
+	div{ /*voor het nieuws blokje over de afbeelding pagina 1*/
+		background-color: darkblue;
+		padding: 1em;
+		margin: 13em 0em 0em 0em;
+		color: #fff;
+	}
+
+	main article:first-of-type ul {
+		list-style: none;
+		padding: 0;
+	}
+ 
+	main  li{
+		padding-top: 0.5em;
+	}
+
+	.pagina1 main h2{
+		margin: 0;
+	}
+	
+
+.pagina1 main article{
+	box-shadow:.2em .2em 0 gainsboro;
 }
 
-main p:first-child, main  p:first-child a{
+.pagina1 main article:not(:first-of-type):hover{  
+	box-shadow:.2em .2em 0 red;
+}
+
+main p:first-child a{ /*voor de datum op pagina 2*/
 	color: gray;
 	text-decoration: none;
 }
 
-article a {
-	color: darkblue;
+main p:first-child{ /*voor de broodkruimel linkjes op pagina 2*/
+	margin-bottom: 0;
+	margin-top: 3em;
+	color: gray;
 }
 
+article a { /*linkjes in de main pagina 2*/
+	color: darkred;
+	text-decoration: underline;
+}
 
+main img { /* verkiezingen status pagina 2*/
+	width:100%;
+}
 
+.pagina1 img { 
+	width: auto;
+}
 
+a:hover{
+	color: red;
+	text-decoration: wavy; /*wrm werkt dit niet*/
+}
 
+h2{
+	font-size: 1.3em;
+	margin: 0;
+}
 
-
+p{
+	font-size: 0.9em;
+	margin:0;
+}
 
 /*******************/
 /* footer */
