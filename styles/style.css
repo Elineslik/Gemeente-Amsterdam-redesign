@@ -245,6 +245,10 @@ nav button:active, header button:active {
 		border: none;
 	}
 
+	nav a:not(.active):hover{
+		background-color: none;
+		padding-left: 0em;
+	}
 }
 
 /***********/
