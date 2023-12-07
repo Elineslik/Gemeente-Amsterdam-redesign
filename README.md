@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+Eline Slikkerveer
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+Responsive 
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Amsterdam.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home pagina
+  <img src="readme-images/Untitled - Frame 2.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Nieuws pagina
+  <img src="readme-images/Untitled - Frame22.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+De website van de gemeente amsterdam is al erg toegankelijk. Verbeterpuntjes zijn bvb een gekke volgorde in koppen en soms zegt hij H1 gemeente Amsterdam terwijl dat geen zichtbare kop is op de pagina. 
 
 </details>
 
@@ -68,7 +68,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Untitled - Frame 1.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -154,8 +154,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Soms zegt hij lege boks, dat komt waarschijnlijk doordat ik brakes heb gebruik in mijn html. 
+Op mijn home scherm is een soort van keuze menu nav wat allemaal linkjes zijn naar verschillende delen van de website. Alleen  ziet hij het niet als een linkje.
+mijn tab doet t alleen in de footer. 
 
+
+pepijn
+linkjes duidelijkere linkjes maken
+focus state maken
+text alternative voor de nieuws img
+skip link 
+dark and light + High contrast mode
+increase  text  size 200%
 </details>
 
 

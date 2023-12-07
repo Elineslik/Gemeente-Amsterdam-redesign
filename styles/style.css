@@ -7,8 +7,6 @@
 	box-sizing: border-box;
 }
 
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -16,27 +14,63 @@
 	--general-color: #012;
 	--general-background: #fff;
 
-	--header-gradient: linear-gradient(rgb(244, 239, 239), rgb(228, 217, 223));
+	--header-gradient: #fff;
 
 	--menu-gradient: linear-gradient(#8af, #bdf);
 	--menu-border: #46f;
 
 	--button-color: #fff;
 	--button-background: rgb(255, 0, 47);
+
+	--pagina1-main-achtergrond: rgb(238, 234, 234);
+	--pagina1-div-achtergrond: darkblue;
+	--pagina1-text-div: #fff;
+	--pagina1-h3: black;
+	--linkjes: darkred;
+	--data: gray;
+
+	--button-color: White;
+	--button-background-color: #2d8653;
+	/* slightly darker SeaGreen */
+	--button-background-focus-color: #267347;
+	/* darker SeaGreen */
+	--button-background-active-color: Crimson;
+	--button-border-color: rgba(0, 0, 0, .25);
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@media (prefers-color-scheme:dark) {
+	:root {
+		--general-color: rgb(219, 220, 222);
+		--general-background: #2a2a2d;
 
+		--header-gradient: #1c1c1d;
+
+		--menu-gradient: linear-gradient(#1c1c1d, #47474a);
+		--menu-border: rgb(209, 135, 135);
+
+		--button-color: #fff;
+		--button-background: rgb(255, 0, 47);
+
+		--pagina1-main-achtergrond: rgb(154, 154, 155);
+		--pagina1-div-achtergrond: darkblue;
+		--pagina1-text-div: #fff;
+		--pagina1-h3: black;
+		--linkjes: rgb(209, 135, 135);
+		--data: rgb(172, 172, 172);
+	}
+}
 
 /********************/
 /* ALGEMENE STIJLEN */
 /********************/
 body {
-	margin: 0;
+	margin: auto;
 	background-color: var(--general-background);
 	color: var(--general-color);
 	font-family: 'Open Sans', sans-serif;
+	max-width: 60em;
 }
 
 
@@ -45,7 +79,7 @@ body {
 /*************/
 header {
 	padding: 0 2em;
-	background-image: var(--header-gradient);
+	background-color: var(--header-gradient);
 
 	display: flex;
 	justify-content: space-between;
@@ -53,6 +87,7 @@ header {
 
 	position: sticky;
 	top: 0;
+	z-index: 1;
 }
 
 header a {
@@ -78,21 +113,18 @@ header button {
 	color: var(--button-color);
 }
 
-header button img {
-	height: 1em;
-}
-
 /*header>button {
 	order: -1;
-} voor als je de menu en het logo van plek wil laten wisselen*/ 
+} voor als je de menu en het logo van plek wil laten wisselen*/
 
 
-nav button { 
+nav button {
 	/* Sluit button */
 	justify-self: start;
 }
 
-nav {   /*menu*/
+nav {
+	/*menu*/
 	padding: 1em;
 	display: grid;
 	align-content: start;
@@ -115,6 +147,10 @@ nav.toonMenu {
 	translate: 0% 0%;
 }
 
+nav ul {
+	list-style: none;
+}
+
 nav a {
 	display: flex;
 	column-gap: .25em;
@@ -131,7 +167,9 @@ nav a.active {
 }
 
 
-@media (min-width:38em) {  /*aanpassingen voor groot scherm*/
+@media (min-width:38em) {
+
+	/*aanpassingen voor groot scherm*/
 	header>button {
 		display: none;
 	}
@@ -165,9 +203,8 @@ nav a.active {
 /***********/
 /* CONTENT */
 /***********/
-.pagina1 main{
+[class="pagina1"] main {
 	display: grid;
-	background-color: #fff;
 }
 
 main {
@@ -176,100 +213,222 @@ main {
 	margin: 2em;
 }
 
-.pagina1 main{
+[class="pagina1"] main {
 	display: grid;
 }
 
 article:first-child {
 	grid-column: 1/-1;
-	background-color: #fff;
 }
 
-.pagina1 article {
-	background-color:rgb(238, 234, 234);
+[class="pagina1"] article {
+	background-color: var(--pagina1-main-achtergrond);
 	padding: 0.5em 1em 0.5em 1em;
 }
 
-.pagina1 article:first-of-type {
-	background-image: url("../images/huisjes.webp"); 
-	background-color: lightskyblue;
+[class="pagina1"] article:first-of-type {
+	background-image: url("../images/huisjes.webp");
 	background-size: cover;
 	box-shadow: none;
 	display: flex;
 }
 
-	div{ /*voor het nieuws blokje over de afbeelding pagina 1*/
-		background-color: darkblue;
-		padding: 1em;
-		margin: 13em 0em 0em 0em;
-		color: #fff;
-	}
-
-	main article:first-of-type ul {
-		list-style: none;
-		padding: 0;
-	}
- 
-	main  li{
-		padding-top: 0.5em;
-	}
-
-	.pagina1 main h2{
-		margin: 0;
-	}
-	
-
-.pagina1 main article{
-	box-shadow:.2em .2em 0 gainsboro;
+[class="pagina1"] div {
+	/*voor het nieuws blokje over de afbeelding pagina 1*/
+	background-color: var(--pagina1-div-achtergrond);
+	padding: 1em;
+	margin: 13em 0em 0em 0em;
+	color: var(--pagina1-text-div);
 }
 
-.pagina1 main article:not(:first-of-type):hover{  
-	box-shadow:.2em .2em 0 red;
+main article:first-of-type ul {
+	list-style: none;
+	padding: 0;
 }
 
-main p:first-child a{ /*voor de datum op pagina 2*/
-	color: gray;
+main li {
+	padding-top: 0.5em;
+}
+
+[class="pagina1"] main h2 {
+	margin: 0;
+}
+
+[class="pagina1"] main article {
+	box-shadow: .2em .2em 0 gainsboro;
+}
+
+[class="pagina1"] main article:not(:first-of-type):hover {
+	box-shadow: .2em .2em 0 Red;
+}
+
+main p:first-child a {
+	/*voor de broodkruimel linkjes op pagina 2*/
+	color: var(--data);
 	text-decoration: none;
 }
 
-main p:first-child{ /*voor de broodkruimel linkjes op pagina 2*/
+main p:first-child {
+	/*voor de datum op pagina 2*/
 	margin-bottom: 0;
-	margin-top: 3em;
-	color: gray;
+	margin-top: 2em;
+	color: var(--data);
 }
 
-article a { /*linkjes in de main pagina 2*/
-	color: darkred;
-	text-decoration: underline;
+article a {
+	/*linkjes in de main pagina 2*/
+	color: var(--linkjes);
 }
 
-main img { /* verkiezingen status pagina 2*/
-	width:100%;
+main img {
+	/* verkiezingen status pagina 2*/
+	width: 100%;
 }
 
-.pagina1 img { 
+[class="pagina1"] img {
 	width: auto;
 }
 
-a:hover{
-	color: red;
-	text-decoration: wavy; /*wrm werkt dit niet*/
+[class="pagina1"] main a {
+	/*waarom werkt hier de onderstaande hover  niet op */
+	color: #fff;
 }
 
-h2{
+a:hover {
+	color: red;
+	text-decoration-style: wavy;
+}
+
+h2 {
 	font-size: 1.3em;
 	margin: 0;
 }
 
-p{
-	font-size: 0.9em;
-	margin:0;
+p {
+	font-size: 1em;
+	margin: 0;
+	padding: 0.5rem 0;
 }
+
+[class="pagina1"] h3 {
+	color: var(--pagina1-h3);
+}
+
+article ul {
+	margin: 0;
+	list-style-type: disc;
+}
+
+@media (min-width:40em) {
+
+	main>div {
+		position: relative;
+		display: flex;
+	}
+
+	main div img {
+		position: sticky;
+		max-width: 26em;
+		height: auto;
+		top: 5em;
+		align-self: flex-start;
+	}
+
+	div div {
+		margin-left: 1em;
+	}
+
+	div article:first-of-type p {
+		margin-top: 0;
+	}
+
+}
+
 
 /*******************/
 /* footer */
 /*******************/
 
 footer {
+	overflow: hidden;
 	margin: 2em;
+	padding-top: 2em;
 }
+
+footer p {
+	margin: 0.5em 0;
+}
+
+input:first-of-type {
+	padding: 1em;
+	font-size: 1em;
+	background: #ddd;
+	border: none;
+	border-radius: 1.5em;
+	min-width: fill;
+	margin-left: 0.2em;
+	flex-grow: 1;
+	max-width: 30em;
+}
+
+input:last-of-type {
+	min-height: 3em;
+	padding: .25em 1em;
+	color: var(--button-color);
+	background-color: var(--button-background-color);
+	border: none;
+	border-radius: 1.5em;
+	font-size: 1em;
+	/* hoe krijg ik hem aan de rechter  kant? */
+	transition: .1s;
+}
+
+input:last-of-type:hover,
+input:last-of-type:focus-visible {
+	transform: translatey(-.5em);
+	box-shadow:
+		0 .5em var(--button-border-color),
+		inset 0 0 var(--button-border-color);
+}
+
+input:last-of-type:hover {
+	cursor: pointer;
+}
+
+input:last-of-type:focus-visible {
+	background-color: var(--button-background-focus-color);
+}
+
+input:last-of-type:active {
+	background-color: var(--button-background-active-color);
+
+	transform: translatey(0);
+
+	padding-top: .5em;
+	box-shadow:
+		0 0 var(--button-border-color),
+		inset 0 .5em var(--button-border-color);
+}
+
+label {
+	margin-top: .5em;
+}
+
+footer p:last-of-type {
+	opacity: .7;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.9em;
+}
+
+/* 
+nieuws site responive maken met een funky grid
+Ook de footer toevoegen
+Kopjes beter schalen
+evt als het op groot schem is de content in het midden met veel margin
+Mischien de afbeelding vast en de text die er langs scrold
+ Alle kleuren in een root zetten 
+*/
