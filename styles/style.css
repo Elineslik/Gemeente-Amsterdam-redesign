@@ -16,26 +16,25 @@
 
 	--header-gradient: #fff;
 
-	--menu-gradient: linear-gradient(#8af, #bdf);
-	--menu-border: #46f;
+	--menu-gradient: linear-gradient(#efc1c1, rgb(243, 0, 0));
+	--menu-border: #fff;
 
-	--button-color: #fff;
-	--button-background: rgb(255, 0, 47);
+	--button-color-header: #fff;
+	--button-background-header: rgb(255, 0, 47);
 
 	--pagina1-main-achtergrond: rgb(238, 234, 234);
 	--pagina1-div-achtergrond: darkblue;
 	--pagina1-text-div: #fff;
-	--pagina1-h3: black;
+	--pagina1-h3: #012;
 	--linkjes: darkred;
 	--data: gray;
 
-	--button-color: White;
-	--button-background-color: #2d8653;
-	/* slightly darker SeaGreen */
-	--button-background-focus-color: #267347;
-	/* darker SeaGreen */
-	--button-background-active-color: Crimson;
-	--button-border-color: rgba(0, 0, 0, .25);
+	--button-color: #fff;
+	--button-background-color: darkblue;
+	--button-background-focus-color: darkred;
+	--button-background-active-color: red;
+	--button-border-color: rgba(0, 0, 0, .25); /*hoe werkt dit*/
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -50,15 +49,23 @@
 		--menu-gradient: linear-gradient(#1c1c1d, #47474a);
 		--menu-border: rgb(209, 135, 135);
 
-		--button-color: #fff;
+		--button-color: #ddd;
 		--button-background: rgb(255, 0, 47);
 
 		--pagina1-main-achtergrond: rgb(154, 154, 155);
 		--pagina1-div-achtergrond: darkblue;
-		--pagina1-text-div: #fff;
+		--pagina1-text-div: #ddd;
 		--pagina1-h3: black;
 		--linkjes: rgb(209, 135, 135);
 		--data: rgb(172, 172, 172);
+
+		--button-color: #ddd;
+		--button-background-color: #2d8653;
+		/* slightly darker SeaGreen */
+		--button-background-focus-color: #267347;
+		/* darker SeaGreen */
+		--button-background-active-color: Crimson;
+		--button-border-color: rgba(0, 0, 0, .25);
 	}
 }
 
@@ -71,6 +78,10 @@ body {
 	color: var(--general-color);
 	font-family: 'Open Sans', sans-serif;
 	max-width: 60em;
+}
+
+P, li{
+	line-height: 1.5em;
 }
 
 
@@ -92,7 +103,7 @@ header {
 
 header a {
 	padding: .5em 0;
-	color: var(--general-color);
+	color: var(	--general-color);
 	text-decoration: none;
 }
 
@@ -101,25 +112,13 @@ header>a:first-of-type img {
 	height: 3em;
 }
 
-
-header button {
-	padding: .5em;
-	display: flex;
-	gap: .25em;
-	font-size: 1em;
-	background-color: var(--button-background);
-	border: none;
-	border-radius: .25em;
-	color: var(--button-color);
-}
-
 /*header>button {
 	order: -1;
 } voor als je de menu en het logo van plek wil laten wisselen*/
 
 
 nav button {
-	/* Sluit button */
+	/* Sluit button */ /* ?????Hoe krijg ik de sluit button aan de rechter kan?*/
 	justify-self: start;
 }
 
@@ -132,19 +131,17 @@ nav {
 	font-weight: bold;
 	background-image: var(--menu-gradient);
 
-	position: fixed;
-	left: 0;
+	position: fixed; 
 	right: 0;
 	top: 0;
-	bottom: 0;
-
+	left: 0;
 	translate: 100% 0%;
-
+	border-radius: 3em;
 	transition: translate .5s;
 }
 
 nav.toonMenu {
-	translate: 0% 0%;
+	translate: 60% 0%; /*???????Hoe krijg ik hem van boven naar beneden ipv horizontaal*/
 }
 
 nav ul {
@@ -163,11 +160,60 @@ nav a img {
 }
 
 nav a.active {
-	font-weight: bold;
+	color: darkblue;
+	background-color: #fff;
+	padding-left: 1em;
+
 }
 
+nav a:not(.active):hover{
+	color: red;
+	background-color: #fff;
+	padding-left: 1em;
+}
 
-@media (min-width:38em) {
+nav button, header button {
+	min-height: 2em;
+	padding: .5em 1em;
+	color: var(--button-color);
+	background-color: var(--button-background-color);
+	border: none;
+	border-radius: 1.5em;
+	font-size: 1em;
+	font-weight: bold;
+	/* ????????hoe krijg ik hem aan de rechter  kant? */
+	transition: .1s;
+}
+
+nav button:hover,
+nav button:focus-visible,header button:hover,
+header button:focus-visible  {
+	transform: translatey(-.5em);
+	box-shadow:
+		0 .5em var(--button-border-color),
+		inset 0 0 var(--button-border-color);  /*???waar staat inset voor*/
+}
+
+nav button:hover, header button:hover {
+	cursor: pointer;
+}
+
+nav button:focus-visible , header button:focus-visible{
+	background-color: var(--button-background-focus-color);
+}
+
+nav button:active, header button:active {
+	background-color: var(--button-background-active-color);
+
+	transform: translatey(0);
+
+	padding-top: .5em;
+	box-shadow:
+		0 0 var(--button-border-color),
+		inset 0 .5em var(--button-border-color);
+}
+
+@media (min-width:40em) {
 
 	/*aanpassingen voor groot scherm*/
 	header>button {
@@ -192,6 +238,7 @@ nav a.active {
 		margin: 0;
 		padding: 0em;
 		padding-right: 1em;
+		 ;
 	}
 
 	nav a {
@@ -290,7 +337,7 @@ main img {
 }
 
 [class="pagina1"] main a {
-	/*waarom werkt hier de onderstaande hover  niet op */
+	/*??????????waarom werkt hier de onderstaande hover niet op */
 	color: #fff;
 }
 
@@ -299,9 +346,21 @@ a:hover {
 	text-decoration-style: wavy;
 }
 
+h1{
+	font-size: 2em;
+}
+
 h2 {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin: 0;
+}
+
+h3{
+	margin-bottom:0;
+}
+
+[class="pagina1"] h3{
+	margin: 1em 0;
 }
 
 p {
@@ -316,10 +375,11 @@ p {
 
 article ul {
 	margin: 0;
-	list-style-type: disc;
+	list-style-type: circle;
+	color: darkred; /* ??????Hoe zorg ik er voor dat de alleen de list style rood wordt */
 }
 
-@media (min-width:40em) {
+@media (min-width:47.5em) {
 
 	main>div {
 		position: relative;
@@ -344,6 +404,28 @@ article ul {
 
 }
 
+div img{
+	max-width: 26em;
+	align-content: center; /*????????hoe krijg ik deze afbeelding in het midden*/
+}
+
+article h1{
+	text-align: center;
+}
+
+[class="pagina1"] article:first-of-type :focus{
+	border-radius: 1em;
+	padding: 0.2em 0.5em ;
+	border: solid 2px red;
+	border-style: groove;
+}
+:focus{
+	border: solid 2px darkblue;
+
+}
+[class="pagina1"] article :focus{ /*  ?????hoe geef ik deze het best weer*/
+	border: none;
+}
 
 /*******************/
 /* footer */
@@ -379,7 +461,8 @@ input:last-of-type {
 	border: none;
 	border-radius: 1.5em;
 	font-size: 1em;
-	/* hoe krijg ik hem aan de rechter  kant? */
+	font-weight: bold;
+	/* ????????hoe krijg ik hem aan de rechter  kant? */
 	transition: .1s;
 }
 
@@ -411,7 +494,7 @@ input:last-of-type:active {
 }
 
 label {
-	margin-top: .5em;
+	margin-top: 1em;
 }
 
 footer p:last-of-type {
@@ -426,9 +509,14 @@ form {
 
 /* 
 nieuws site responive maken met een funky grid
-Ook de footer toevoegen
 Kopjes beter schalen
+Alle kleuren in een root zetten 
+tab vormgeven
+skip link
+donker en licht verbeteren
+
+ Ook de footer toevoegen
 evt als het op groot schem is de content in het midden met veel margin
 Mischien de afbeelding vast en de text die er langs scrold
- Alle kleuren in een root zetten 
+
 */

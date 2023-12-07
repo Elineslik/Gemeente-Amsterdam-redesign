@@ -154,7 +154,6 @@ De website van de gemeente amsterdam is al erg toegankelijk. Verbeterpuntjes zij
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Soms zegt hij lege boks, dat komt waarschijnlijk doordat ik brakes heb gebruik in mijn html. 
 Op mijn home scherm is een soort van keuze menu nav wat allemaal linkjes zijn naar verschillende delen van de website. Alleen  ziet hij het niet als een linkje.
 mijn tab doet t alleen in de footer. 
 
