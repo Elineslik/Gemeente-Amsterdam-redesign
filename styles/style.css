@@ -18,13 +18,14 @@
 
 	--menu-gradient: linear-gradient(#efc1c1, rgb(243, 0, 0));
 	--menu-border: #fff;
+	--nav-hover: #fff;
 
 	--button-color-header: #fff;
 	--button-background-header: rgb(255, 0, 47);
 
 	--pagina1-main-achtergrond: rgb(238, 234, 234);
 	--pagina1-div-achtergrond: darkblue;
-	--pagina1-text-div: #fff;
+	--pagina1-text-div: #ddd;
 	--pagina1-h3: #012;
 	--linkjes: darkred;
 	--data: gray;
@@ -33,7 +34,7 @@
 	--button-background-color: darkblue;
 	--button-background-focus-color: darkred;
 	--button-background-active-color: red;
-	--button-border-color: rgba(0, 0, 0, .25); /*hoe werkt dit*/
+	--button-border-color: rgba(0, 0, 0, .25);
 
 }
 
@@ -48,16 +49,13 @@
 
 		--menu-gradient: linear-gradient(#1c1c1d, #47474a);
 		--menu-border: rgb(209, 135, 135);
-
-		--button-color: #ddd;
-		--button-background: rgb(255, 0, 47);
+		--nav-hover: #1c1c1dff;
 
 		--pagina1-main-achtergrond: rgb(154, 154, 155);
-		--pagina1-div-achtergrond: darkblue;
-		--pagina1-text-div: #ddd;
-		--pagina1-h3: black;
-		--linkjes: rgb(209, 135, 135);
+		--linkjes: rgb(236, 179, 179);
 		--data: rgb(172, 172, 172);
+
+		--button-background-color: rgb(63, 79, 185);
 	}
 }
 
@@ -72,7 +70,8 @@ body {
 	max-width: 60em;
 }
 
-P, li{
+P,
+li {
 	line-height: 1.5em;
 }
 
@@ -95,7 +94,7 @@ header {
 
 header a {
 	padding: .5em 0;
-	color: var(	--general-color);
+	color: var(--general-color);
 	text-decoration: none;
 }
 
@@ -110,7 +109,8 @@ header>a:first-of-type img {
 
 
 nav button {
-	/* Sluit button */ /* ?????Hoe krijg ik de sluit button aan de rechter kan?*/
+	/* Sluit button */
+	/* ?????Hoe krijg ik de sluit button aan de rechter kan?*/
 	justify-self: start;
 }
 
@@ -123,7 +123,7 @@ nav {
 	font-weight: bold;
 	background-image: var(--menu-gradient);
 
-	position: fixed; 
+	position: fixed;
 	right: 0;
 	top: 0;
 	left: 0;
@@ -133,7 +133,7 @@ nav {
 }
 
 nav.toonMenu {
-	translate: 60% 0%; 
+	translate: 60% 0%;
 	padding: 1.4em;
 }
 
@@ -158,15 +158,17 @@ nav li a.active {
 	opacity: 0.8;
 	color: darkblue;
 	padding-left: 1em;
+	padding-right: 1em;
 }
 
-nav a:not(.active):hover{
+nav a:not(.active):hover {
 	color: red;
-	background-color: #fff;
+	background-color: var(--nav-hover);
 	padding-left: 1em;
 }
 
-nav button, header button {
+nav button,
+header button {
 	min-height: 2em;
 	padding: .5em 1em;
 	color: var(--button-color);
@@ -180,23 +182,28 @@ nav button, header button {
 }
 
 nav button:hover,
-nav button:focus-visible,header button:hover,
-header button:focus-visible  {
+nav button:focus-visible,
+header button:hover,
+header button:focus-visible {
 	transform: translatey(-.5em);
 	box-shadow:
 		0 .5em var(--button-border-color),
-		inset 0 0 var(--button-border-color);  /*???waar staat inset voor*/
+		inset 0 0 var(--button-border-color);
+	/*???waar staat inset voor*/
 }
 
-nav button:hover, header button:hover {
+nav button:hover,
+header button:hover {
 	cursor: pointer;
 }
 
-nav button:focus-visible , header button:focus-visible{
+nav button:focus-visible,
+header button:focus-visible {
 	background-color: var(--button-background-focus-color);
 }
 
-nav button:active, header button:active {
+nav button:active,
+header button:active {
 	background-color: var(--button-background-active-color);
 
 	transform: translatey(0);
@@ -232,14 +239,14 @@ nav button:active, header button:active {
 		margin: 0;
 		padding: 0em;
 		padding-right: 1em;
-		 ;
+		;
 	}
 
 	nav a {
 		border: none;
 	}
 
-	nav a:not(.active):hover{
+	nav a:not(.active):hover {
 		background-color: none;
 		padding-left: 0em;
 	}
@@ -271,8 +278,12 @@ article:first-child {
 	padding: 0.5em 1em 0.5em 1em;
 }
 
+[class="pagina1"] main article:not(:first-of-type) a {
+	color: var(--pagina1-main-achtergrond);
+}
+
 [class="pagina1"] article:first-of-type {
-	background-image: url("../images/huisjes.webp");
+	background-image: url("../images/AdobeStock_178659557_Preview.jpeg");
 	background-size: cover;
 	box-shadow: none;
 	display: flex;
@@ -300,7 +311,7 @@ main li {
 }
 
 [class="pagina1"] main article {
-	box-shadow: .2em .2em 0 gainsboro;
+	box-shadow: .2em .2em 0 var(--pagina1-main-achtergrond);
 }
 
 [class="pagina1"] main article:not(:first-of-type):hover {
@@ -344,8 +355,14 @@ a:hover {
 	text-decoration-style: wavy;
 }
 
-h1{
+h1 {
 	font-size: 2em;
+}
+
+@media (max-width:360px) {
+	h1{
+		font-size: 1.8em;
+	}
 }
 
 h2 {
@@ -353,11 +370,11 @@ h2 {
 	margin: 0;
 }
 
-h3{
-	margin-bottom:0;
+h3 {
+	margin-bottom: 0;
 }
 
-[class="pagina1"] h3{
+[class="pagina1"] h3 {
 	margin: 1em 0;
 }
 
@@ -401,32 +418,28 @@ article ul {
 
 }
 
-div img{
-	max-width: 26em;
-	align-content: center; /*????????hoe krijg ik deze afbeelding in het midden*/
-}
-
-article h1{
+article h1 {
 	text-align: center;
 }
 
-[class="pagina1"] article:first-of-type :focus{
-	border-radius: 1em;
-	padding: 0.2em 0.5em ;
+[class="pagina1"] article:first-of-type :focus {
 	border: solid 2px red;
 }
 
-:focus:not([class="pagina1"]article a){
+:focus:not([class="pagina1"] article a) {
 	border: solid 2px darkblue;
 }
 
-:focus{
+:focus {
 	outline: none;
+	border-radius: 1em;
+	padding: 0.2em 0.5em;
 }
 
-article:not(:first-of-type):focus-within{
-	outline: 2px solid  red;
+[class="pagina1"] article:not(:first-of-type):focus-within {
+	outline: 2px solid red;
 }
+
 
 /*******************/
 /* footer */
@@ -451,7 +464,6 @@ input:first-of-type {
 	min-width: fill;
 	margin-left: 0.2em;
 	flex-grow: 1;
-	max-width: 30em;
 }
 
 input:last-of-type {
@@ -463,7 +475,7 @@ input:last-of-type {
 	border-radius: 1.5em;
 	font-size: 1em;
 	font-weight: bold;
-margin-left: auto;
+	margin-left: auto;
 	transition: .1s;
 }
 
@@ -509,15 +521,16 @@ form {
 }
 
 /* 
-nieuws site responive maken met een funky grid
-Kopjes beter schalen
-Alle kleuren in een root zetten 
-tab vormgeven
 skip link
-donker en licht verbeteren
 
- Ook de footer toevoegen
+ 
+Ook de footer toevoegen
 evt als het op groot schem is de content in het midden met veel margin
 Mischien de afbeelding vast en de text die er langs scrold
+Alle kleuren in een root zetten 
+donker en licht verbeteren
+tab vormgeven
+Kopjes beter schalen
+nieuws site responive maken met een funky grid
 
 */
