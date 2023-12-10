@@ -248,7 +248,7 @@ Ik ben begonnen met het beter vormgeven van de tab. Dit heb ik gedaan door de fo
 
 Ook heb ik een uitgebreide alternative text toegevoegd. Het is namelijk een grafiek met veel informatie die nergens anders staat. Dit heb ik dus allemaal toegevoegd in de alt. 
 
-  <img src="" alt="Voorlopige uitslagen `tweede Kamerverkiezingen 2023 in Amsterdam na het tellen van 85 procent van de stemmen. Opkomst 69,9 procent. GroenLinks-PvdA 33,6%. VVD 11,9%. D66 9,9%. PVV 9,5%. DENK 7,2%. Nieuw Sociaal Contract 6,6%. Partij voor de Dieren 4,7%. Volt 4,0%. SP 3,1%. Form voor Democratie 2,9%. BIJ1 2,3%. BBB 1,0%. ChristenUnie 1,0%. CDA 0,9%. JA21 0,4%. BVNL 0,3%. 50PLUS 0,3% Piratenpartij / De Groenen 0,2%. SGP 0,1%. Splinter 0,1%. LEF 0,1%. Nederland met een Plan 0,1%, Libertaire Partij 0,1%. PartijvdSport 0,0%. Politieke Partij voor Basisinkomen 0,0%, Samen voor Nederland 0,0%">
+- alt="Voorlopige uitslagen tweede Kamerverkiezingen 2023 in Amsterdam na het tellen van 85 procent van de stemmen. Opkomst 69,9 procent. GroenLinks-PvdA 33,6%. VVD 11,9%. D66 9,9%. PVV 9,5%. DENK 7,2%. Nieuw Sociaal Contract 6,6%. Partij voor de Dieren 4,7%. Volt 4,0%. SP 3,1%. Form voor Democratie 2,9%. BIJ1 2,3%. BBB 1,0%. ChristenUnie 1,0%. CDA 0,9%. JA21 0,4%. BVNL 0,3%. 50PLUS 0,3% Piratenpartij / De Groenen 0,2%. SGP 0,1%. Splinter 0,1%. LEF 0,1%. Nederland met een Plan 0,1%, Libertaire Partij 0,1%. PartijvdSport 0,0%. Politieke Partij voor Basisinkomen 0,0%, Samen voor Nederland 0,0%"
 
 Ook heb ik de light en dark mode verbeterd en aangepast in de root. Ik had hier eerder iets beter over moeten nadenken want ik had nogsteeds heel veel kleuren niet in mijn root gezet. Hierdoor moest ik nu alles nog toevoegen wat ik de volgende keer meteen ga doen. 
 
