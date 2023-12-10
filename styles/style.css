@@ -110,7 +110,6 @@ header>a:first-of-type img {
 
 nav button {
 	/* Sluit button */
-	/* ?????Hoe krijg ik de sluit button aan de rechter kan?*/
 	justify-self: start;
 }
 
@@ -177,7 +176,6 @@ header button {
 	border-radius: 1.5em;
 	font-size: 1em;
 	font-weight: bold;
-	/* ????????hoe krijg ik hem aan de rechter  kant? */
 	transition: .1s;
 }
 
@@ -346,7 +344,6 @@ main img {
 }
 
 [class="pagina1"] main a {
-	/*??????????waarom werkt hier de onderstaande hover niet op */
 	color: #fff;
 }
 
@@ -519,18 +516,3 @@ form {
 	flex-wrap: wrap;
 	gap: 0.9em;
 }
-
-/* 
-skip link
-
- 
-Ook de footer toevoegen
-evt als het op groot schem is de content in het midden met veel margin
-Mischien de afbeelding vast en de text die er langs scrold
-Alle kleuren in een root zetten 
-donker en licht verbeteren
-tab vormgeven
-Kopjes beter schalen
-nieuws site responive maken met een funky grid
-
-*/

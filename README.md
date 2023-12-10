@@ -229,26 +229,30 @@ Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op d
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina">
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Mijn Agenda punten
+  - Hoe zorg ik ervoor dat de button naar rechts gaat als het scherm kleiner wordt. 
+  - Waarom wekt mijn tab niet behalve in bij de button in de footer. 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - margin-left
+  - Een instelling
 
   ### Stand van zaken na de meeting
+Ik ben begonnen met het beter vormgeven van de tab. Dit heb ik gedaan door de focus aan te roepen en daar een kleur en een border radius toe te voegen. Na wat spelen met de padding dacht ik dat het goed zou zijn, alleen toen ik het uitprobeerde werkte het toch niet helemaal zoals in gedachte. Hij pakte namelijk ook de afzondelijke linkjes in de index main. Hierdoor kwam er een geke lijn om de text. Dit heb ik opgelost met de focus-within. Ook had ik de kleur donker blauw gemaakt, alleen zitten er ook linkjes in de eerste artikel die een donkerblauwe achtergrond heeft. Hierdoor is onzichtbaar, daarom heb ik die rood gemaakt. 
 
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina">
+
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina"> 
+
+Ook heb ik een uitgebreide alternative text toegevoegd. Het is namelijk een grafiek met veel informatie die nergens anders staat. Dit heb ik dus allemaal toegevoegd in de alt. 
+
+  <img src="images/voorlopige-uitslag.png" alt="Voorlopige uitslagen `tweede Kamerverkiezingen 2023 in Amsterdam na het tellen van 85 procent van de stemmen. Opkomst 69,9 procent. GroenLinks-PvdA 33,6%. VVD 11,9%. D66 9,9%. PVV 9,5%. DENK 7,2%. Nieuw Sociaal Contract 6,6%. Partij voor de Dieren 4,7%. Volt 4,0%. SP 3,1%. Form voor Democratie 2,9%. BIJ1 2,3%. BBB 1,0%. ChristenUnie 1,0%. CDA 0,9%. JA21 0,4%. BVNL 0,3%. 50PLUS 0,3% Piratenpartij / De Groenen 0,2%. SGP 0,1%. Splinter 0,1%. LEF 0,1%. Nederland met een Plan 0,1%, Libertaire Partij 0,1%. PartijvdSport 0,0%. Politieke Partij voor Basisinkomen 0,0%, Samen voor Nederland 0,0%">
+
+Ook heb ik de light en dark mode verbeterd en aangepast in de root. Ik had hier eerder iets beter over moeten nadenken want ik had nogsteeds heel veel kleuren niet in mijn root gezet. Hierdoor moest ik nu alles nog toevoegen wat ik de volgende keer meteen ga doen. 
+
+Helaas is de skip link niet gelukt. Ik heb veel gegoogeld en geprobeerd, maar ik kwam er niet uit. Waneer ik iets probeerde verdwenen al mijn linkjes en werden ze onzichtbaar. 
 
 </details>
 
