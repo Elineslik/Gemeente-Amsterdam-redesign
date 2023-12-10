@@ -62,16 +62,21 @@ Ballon test
 - Minder informatie
 - Grotere knoppen met minder stappen tot je doel
 
+<img src="readme-images/IMG_8681.jpeg" width="375px" alt="omschrijving van de pagina">
+
 Wazig bril test
 - Contrast
 - Dingen op de plek dat je ze verwacht
 - Zoekbalk Groter
 - Muis kwijt
 
+<img src="readme-images/IMG_8689.jpeg" width="375px" alt="omschrijving van de pagina">
+
 Screen Reader test Home screen
 Hij slaat terwijl je door de homepagina heen tabt een heel stuk over. 
 Ook mist hij veel linkjes/ nav die naar andere delen van de website verwijst.
 
+<img src="readme-images/IMG_8692.jpeg" width="375px" alt="omschrijving van de pagina">
 
 Gemeente Amsterdam
 De website van de gemeente amsterdam is al erg toegankelijk. 
@@ -135,12 +140,16 @@ Mijn Agenda punten
 
   ### Stand van zaken
 Omdat ik deze week opniew ben begonnen had ik een hoop in te halen. Ik heb snel de schetsen gemaakt en alles in Html gezet. Dit verliep verbazing wekkend soepel, maar dat zal vast komen door dat ik het nu  voor de tweede keer doe. 
+
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.39.png" width="375px" alt="breakdown van de hele pagina">
 
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.30.png" width="375px" alt="breakdown van de hele pagina">
+
 Ik ben begonnen met het vorm geven van de nav. Hierbij ben ik begonnen met de basic lay out zoals we in de les geleled hebben. Waarbij als het  scherm te smal wordt er een uitklap menu ontstaat. Hierbij heb ik nog niet al te veel gelet op de vormgeving. Het gaat me erom dat hij werkt. 
+
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.22.png" width="375px" alt="breakdown van de hele pagina">
-    <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.04.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.04.png" width="375px" alt="breakdown van de hele pagina">
+
 Ook heb ik de atrikelen met linkjes in een grid gezet en een rode hover en een dropshadow toe gevoed. Uit de opdrachten van week 1. 
 
 Aan de nieuws site heb ik nog niet veel aangepast. Wel heb ik de linkjes een donker rode kleur gegeven zodat ze lekker op vallen. 
