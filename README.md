@@ -202,8 +202,31 @@ pepijn
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik ben begonnen met het vormgeven van de footer. In de footer wil ik graag en form verwerken. Dus heb ik die als in de opdrachten toegevoegd. In het begin had ik de imput verkeerd gedaan maar na dat ik dat had veranderd naar email werkte hij helemaal.  
 
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 12.51.56.png" width="375px" alt="breakdown van de hele pagina">
+
+  <img src="" width="375px" alt="breakdown van de hele pagina">
+
+ Daarna heb ik de buttons op mijn site opnieuw voorm gegeven aan de hand van de opdrachten uit week 3. Het een hover en een active state, zodat het voor iedereen duidelijk is dat het een knop is en hij lekker op valt. 
+  
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.03.png" width="375px" alt="breakdown van de hele pagina">
+  
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.17.png" width="375px" alt="breakdown van de hele pagina">
+
+ De button in de footer toevoegen ging opzich wel makkelijk, omdat ik verder nog niks met de vormgeving had gedaan. In de nav was dit helaas niet het geval. Maar uiteindelijk lukte het wel en besloot ik ook derest van de nav aan te passen. Ik vond de full screen uitklap menu een beetje overbodig en het leek me leuk om te kijken of ik hem kon omzetten naar een drop down. Dit lukte helaas niet. Ik kreeg het niet voor elkaar om de slider van boven te laten komen ipv van rechts. Dus heb ik na veel googlen en proberen het maar zo gelaten.
+
+ Nu heb ik dus een kleine slider die van rechts komt. Ook heb ik hier in de hover en active state vormgegeven.  
+
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.49.png" width="375px" alt="breakdown van de hele pagina">
+  
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.37.png" width="375px" alt="breakdown van de hele pagina">
+
+Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op de breede versie van het scherm. Ik wou aan de rechter kant de img stickey maken alleen lukte het niet helemaal. hij bleef eerst niet plakken, wat bleek ik was de top vergeten en nadat ik die had toegevoegd bleef de img idd plakken. Daarna nog even een z-index toegevoegd en nu staat die helemmaal goed op zijn plekje. Met een media queri heb ik ervoor gezordt dat hij pas na 47em weer terug onder elkaar springt. Anders wordt het allemaal te smal en is het haast niet leesbaar. 
+
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.30.png" width="375px" alt="breakdown van de hele pagina">
+  
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -222,6 +245,10 @@ pepijn
   - punt 2
   - nog een punt
   - ...
+
+
+  ### Stand van zaken na de meeting
+  
 
 </details>
 
