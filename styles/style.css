@@ -390,6 +390,19 @@ article ul {
 	list-style-type: circle;
 }
 
+@media (min-width:30em) {
+div div{
+	display:grid; 
+	 grid-template-columns:1fr 1fr; 
+	 gap:2em; 
+   }
+   
+   article:first-child, article:nth-of-type(4), article:last-of-type  {
+	 grid-column:1/-1; 
+   } 
+
+}
+
 @media (min-width:47.5em) {
 
 	main>div {
@@ -399,7 +412,7 @@ article ul {
 
 	main div img {
 		position: sticky;
-		max-width: 26em;
+		max-width: 22em;
 		height: auto;
 		top: 5em;
 		align-self: flex-start;
@@ -436,6 +449,7 @@ article h1 {
 [class="pagina1"] article:not(:first-of-type):focus-within {
 	outline: 2px solid red;
 }
+
 
 
 /*******************/

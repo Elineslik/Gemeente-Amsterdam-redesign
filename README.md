@@ -242,9 +242,9 @@ Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op d
   ### Stand van zaken na de meeting
 Ik ben begonnen met het beter vormgeven van de tab. Dit heb ik gedaan door de focus aan te roepen en daar een kleur en een border radius toe te voegen. Na wat spelen met de padding dacht ik dat het goed zou zijn, alleen toen ik het uitprobeerde werkte het toch niet helemaal zoals in gedachte. Hij pakte namelijk ook de afzondelijke linkjes in de index main. Hierdoor kwam er een geke lijn om de text. Dit heb ik opgelost met de focus-within. Ook had ik de kleur donker blauw gemaakt, alleen zitten er ook linkjes in de eerste artikel die een donkerblauwe achtergrond heeft. Hierdoor is onzichtbaar, daarom heb ik die rood gemaakt. 
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.30.png" width="375px" alt="breakdown van de hele pagina">
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina"> 
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.42.png" width="375px" alt="breakdown van de hele pagina"> 
 
 Ook heb ik een uitgebreide alternative text toegevoegd. Het is namelijk een grafiek met veel informatie die nergens anders staat. Dit heb ik dus allemaal toegevoegd in de alt. 
 
@@ -269,16 +269,19 @@ Helaas is de skip link niet gelukt. Ik heb veel gegoogeld en geprobeerd, maar ik
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  ### Reflectie: 
+Oh ik heb een hele hoop geleerd. Het begon natuurlijk met het vormgeven van tekst. Ik had nooit op deze manier naar css gekeken. Ik moet nu voor het vak vormgeving een animatie maken en besef me nu pas hoe vet het was geweest als ik dat in css had gedaan. Wil me daar zekker nog verder in verdiepen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Van grid en flex box heb ik ook veel gebruik gemaakt. Ik wordt er steeds beter in maar vind het nogsteeds lastig. Soms heb ik het idee dat het gwn onvoorspelbare dingen doet en dan krijg ik het niet opgelost. Zo leek het me leuk als je op de nieuws site nog een fun gridje te hebben. Met twee kollomen en dan het eerste en laatste stukje text span 2 en de middelste naast elkaar. Alleen stonden er twee dives op het stuk waardoor het helemaal mis ging en het me niet lukte. Na dat ik van alles geprobeerd had aan te passen heb ik het voor nu maar even op gegeven. OMG het is me net gelukt!!!!!!!!! Super blij! ik denk dat ik gister avond iets te moe was want ik heb volgensmij dezelfde stappen weer genomen en nu is het wel gelukt!!!
 
+Java Script snap ik eindelijk na al een goed blok inleiding programeren. Dus daar ben ik erg blij mee.
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+De oefeningen over de Animaties vond ik echt super gaaf. Om te zeggen dat ik er echt super goed in ben, nee. Maar ik snap de opdrachten wel. Ik vind het alleen soms lasig om het dan toe te passen in mijn eigen site, omdat de site zo netjes is vande gemeente en ik dan niet weet waar ik ze zou moeten toevoegen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+De states heb ik goed onder de knie. Het is vrij makkelijk omdat je niet je hele site ermee kan omgooien. Wat me een erg fijn gevoel geeft. 
+
+Heb ook veel geleerd over de screenreader. Bij de eerste toegankelijkheids test snapte ik er echt helemaal niks van. Maar nu kan ik er eindelijk mee overweg. Het is sowiso fijn om te gebruiken aangezien ik enorm dyslecties ben en op deze manier ook dingen kan laten voorlezen. 
+
 </details>
 
 
@@ -290,12 +293,9 @@ Helaas is de skip link niet gelukt. Ik heb veel gegoogeld en geprobeerd, maar ik
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+  2. https://validator.w3.org/nu/?doc=https%3A%2F%2Felineslik.github.io%2FGemeente-Amsterdam-redesign%2F 
+  3. https://stock.adobe.com/nl/search?
+  4. https://www.accessibility.nl/kennis/zo-zet-je-skiplinks-voor-een-optimale-navigatie 
 
 </details>
