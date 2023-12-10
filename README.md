@@ -180,17 +180,16 @@ Aan de nieuws site heb ik nog niet veel aangepast. Wel heb ik de linkjes een don
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Op mijn home scherm is een soort van keuze menu nav wat allemaal linkjes zijn naar verschillende delen van de website. Alleen  ziet hij het niet als een linkje.
+Op mijn home scherm is een soort van keuze menu nav wat allemaal linkjes zijn naar verschillende delen van de website. Alleen ziet hij het niet als een linkje.
 mijn tab doet t alleen in de footer. 
 
-
 pepijn
-linkjes duidelijkere linkjes maken
-focus state maken
-text alternative voor de nieuws img
-skip link 
-dark and light + High contrast mode
-increase  text  size 200%
+- linkjes duidelijkere linkjes maken
+- focus state maken
+- text alternative voor de nieuws img
+- skip link 
+- dark and light + High contrast mode
+- increase  text  size 200%
 </details>
 
 
