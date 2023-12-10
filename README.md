@@ -206,7 +206,7 @@ pepijn
 
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 12.51.56.png" width="375px" alt="breakdown van de hele pagina">
 
-  <img src="" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 19.41.32.png" width="375px" alt="breakdown van de hele pagina">
 
  Daarna heb ik de buttons op mijn site opnieuw voorm gegeven aan de hand van de opdrachten uit week 3. Het een hover en een active state, zodat het voor iedereen duidelijk is dat het een knop is en hij lekker op valt. 
   
@@ -248,7 +248,7 @@ Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op d
 
 
   ### Stand van zaken na de meeting
-  
+
 
 </details>
 
