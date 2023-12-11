@@ -140,6 +140,7 @@ Omdat ik deze week opniew ben begonnen had ik een hoop in te halen. Ik heb snel 
 Ik ben begonnen met het vorm geven van de nav. Hierbij ben ik begonnen met de basic lay out zoals we in de les geleled hebben. Waarbij als het  scherm te smal wordt er een uitklap menu ontstaat. Hierbij heb ik nog niet al te veel gelet op de vormgeving. Het gaat me erom dat hij werkt. 
 
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.22.png" width="375px" alt="keuze nav in de main groot scherm">
+ 
   <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.04.png" width="375px" alt="keuze nav in de main klein scherm">
 
 Ook heb ik de atrikelen met linkjes in een grid gezet en een rode hover en een dropshadow toe gevoed. Uit de opdrachten van week 1. 
@@ -259,8 +260,11 @@ Helaas is de skip link niet gelukt. Ik heb veel gegoogeld en geprobeerd, maar ik
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/IMG_1197.JPG" width="375px" alt="Home pagina groot">
+
+   <img src="readme-images/IMG_1202.JPG" width="375px" alt="Home pagina half groot">
+
   <img src="readme-images/IMG_1199.JPG" width="375px" alt="Nieuws pagina groot">
-  <img src="readme-images/IMG_1202.JPG" width="375px" alt="Home pagina half groot">
+
   <img src="readme-images/IMG_1208.JPG" width="375px" alt="Nieuws pagina half groot">
 
 
