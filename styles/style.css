@@ -36,6 +36,9 @@
 	--button-background-active-color: red;
 	--button-border-color: rgba(0, 0, 0, .25);
 
+	--focus: darkblue; 
+	--focus2: red; 
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -56,6 +59,9 @@
 		--data: rgb(172, 172, 172);
 
 		--button-background-color: rgb(63, 79, 185);
+
+		--focus: lightblue; 
+		--focus2: pink; 
 	}
 }
 
@@ -397,13 +403,14 @@ div div{
 	 gap:2em; 
    }
    
-   article:first-child, article:nth-of-type(4), article:last-of-type  {
+   div article:first-child, div article:nth-of-type(4), div article:last-of-type  {
 	 grid-column:1/-1; 
    } 
-
 }
 
-@media (min-width:47.5em) {
+
+
+@media (min-width:50em) {
 
 	main>div {
 		position: relative;
@@ -433,11 +440,11 @@ article h1 {
 }
 
 [class="pagina1"] article:first-of-type :focus {
-	border: solid 2px red;
+	border: solid 2px var(--focus2);
 }
 
 :focus:not([class="pagina1"] article a) {
-	border: solid 2px darkblue;
+	border: solid 2px var(--focus);
 }
 
 :focus {
@@ -447,7 +454,7 @@ article h1 {
 }
 
 [class="pagina1"] article:not(:first-of-type):focus-within {
-	outline: 2px solid red;
+	outline: 0.3em solid var(--focus2);
 }
 
 
