@@ -1,12 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
 
 
 
@@ -32,7 +24,7 @@ Responsive
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -62,7 +54,7 @@ Ballon test
 - Minder informatie
 - Grotere knoppen met minder stappen tot je doel
 
-<img src="readme-images/IMG_8681.jpeg" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/IMG_8681.jpeg" width="375px" alt="ballon test">
 
 Wazig bril test
 - Contrast
@@ -70,13 +62,13 @@ Wazig bril test
 - Zoekbalk Groter
 - Muis kwijt
 
-<img src="readme-images/IMG_8689.jpeg" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/IMG_8689.jpeg" width="375px" alt="wazige bril test">
 
 Screen Reader test Home screen
 Hij slaat terwijl je door de homepagina heen tabt een heel stuk over. 
 Ook mist hij veel linkjes/ nav die naar andere delen van de website verwijst.
 
-<img src="readme-images/IMG_8692.jpeg" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/IMG_8692.jpeg" width="375px" alt="weinig opties op de lego site">
 
 Gemeente Amsterdam
 De website van de gemeente amsterdam is al erg toegankelijk. 
@@ -141,14 +133,14 @@ Mijn Agenda punten
   ### Stand van zaken
 Omdat ik deze week opniew ben begonnen had ik een hoop in te halen. Ik heb snel de schetsen gemaakt en alles in Html gezet. Dit verliep verbazing wekkend soepel, maar dat zal vast komen door dat ik het nu  voor de tweede keer doe. 
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.39.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.39.png" width="375px" alt="nav klein scherm">
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.30.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 00.54.30.png" width="375px" alt="nav groot scherm">
 
 Ik ben begonnen met het vorm geven van de nav. Hierbij ben ik begonnen met de basic lay out zoals we in de les geleled hebben. Waarbij als het  scherm te smal wordt er een uitklap menu ontstaat. Hierbij heb ik nog niet al te veel gelet op de vormgeving. Het gaat me erom dat hij werkt. 
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.22.png" width="375px" alt="breakdown van de hele pagina">
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.04.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.22.png" width="375px" alt="keuze nav in de main groot scherm">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 01.00.04.png" width="375px" alt="keuze nav in de main klein scherm">
 
 Ook heb ik de atrikelen met linkjes in een grid gezet en een rode hover en een dropshadow toe gevoed. Uit de opdrachten van week 1. 
 
@@ -204,29 +196,29 @@ pepijn
   ### Stand van zaken
  Ik ben begonnen met het vormgeven van de footer. In de footer wil ik graag en form verwerken. Dus heb ik die als in de opdrachten toegevoegd. In het begin had ik de imput verkeerd gedaan maar na dat ik dat had veranderd naar email werkte hij helemaal.  
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 12.51.56.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 12.51.56.png" width="375px" alt="oude footer">
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 19.41.32.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 19.41.32.png" width="375px" alt="Nieuwe footer met form">
 
  Daarna heb ik de buttons op mijn site opnieuw voorm gegeven aan de hand van de opdrachten uit week 3. Het een hover en een active state, zodat het voor iedereen duidelijk is dat het een knop is en hij lekker op valt. 
   
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.03.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.03.png" width="375px" alt="Nieuwe button met active">
   
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.17.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.17.png" width="375px" alt="Nieuwe button">
 
  De button in de footer toevoegen ging opzich wel makkelijk, omdat ik verder nog niks met de vormgeving had gedaan. In de nav was dit helaas niet het geval. Maar uiteindelijk lukte het wel en besloot ik ook derest van de nav aan te passen. Ik vond de full screen uitklap menu een beetje overbodig en het leek me leuk om te kijken of ik hem kon omzetten naar een drop down. Dit lukte helaas niet. Ik kreeg het niet voor elkaar om de slider van boven te laten komen ipv van rechts. Dus heb ik na veel googlen en proberen het maar zo gelaten.
 
  Nu heb ik dus een kleine slider die van rechts komt. Ook heb ik hier in de hover en active state vormgegeven.  
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.49.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.49.png" width="375px" alt="Nieuwe uitgeklapte menu op klein scherm">
   
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.37.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.12.37.png" width="375px" alt="ingeklapte menu met nieuwe button met hover">
 
 Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op de breede versie van het scherm. Ik wou aan de rechter kant de img stickey maken alleen lukte het niet helemaal. hij bleef eerst niet plakken, wat bleek ik was de top vergeten en nadat ik die had toegevoegd bleef de img idd plakken. Daarna nog even een z-index toegevoegd en nu staat die helemmaal goed op zijn plekje. Met een media queri heb ik ervoor gezordt dat hij pas na 47em weer terug onder elkaar springt. Anders wordt het allemaal te smal en is het haast niet leesbaar. 
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.30.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.30.png" width="375px" alt="Img op het nieuws scherm klein scherm">
   
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 13.31.44.png" width="375px" alt="Img op het nieuws scherm stickey groot scherm">
 
   ### Agenda voor meeting
   Mijn Agenda punten
@@ -242,9 +234,9 @@ Daarnaast heb ik ook op de nieuws pagina een andere soort grid gemaakt voor op d
   ### Stand van zaken na de meeting
 Ik ben begonnen met het beter vormgeven van de tab. Dit heb ik gedaan door de focus aan te roepen en daar een kleur en een border radius toe te voegen. Na wat spelen met de padding dacht ik dat het goed zou zijn, alleen toen ik het uitprobeerde werkte het toch niet helemaal zoals in gedachte. Hij pakte namelijk ook de afzondelijke linkjes in de index main. Hierdoor kwam er een geke lijn om de text. Dit heb ik opgelost met de focus-within. Ook had ik de kleur donker blauw gemaakt, alleen zitten er ook linkjes in de eerste artikel die een donkerblauwe achtergrond heeft. Hierdoor is onzichtbaar, daarom heb ik die rood gemaakt. 
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.30.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.30.png" width="375px" alt="Vormgegeven rode tab">
 
-  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.42.png" width="375px" alt="breakdown van de hele pagina"> 
+  <img src="readme-images/Scherm­afbeelding 2023-12-10 om 20.43.42.png" width="375px" alt="Vormgegeven tab met focus-within"> 
 
 Ook heb ik een uitgebreide alternative text toegevoegd. Het is namelijk een grafiek met veel informatie die nergens anders staat. Dit heb ik dus allemaal toegevoegd in de alt. 
 
@@ -266,13 +258,18 @@ Helaas is de skip link niet gelukt. Ik heb veel gegoogeld en geprobeerd, maar ik
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/IMG_1197.JPG" width="375px" alt="Home pagina groot">
+  <img src="readme-images/IMG_1199.JPG" width="375px" alt="Nieuws pagina groot">
+  <img src="readme-images/IMG_1202.JPG" width="375px" alt="Home pagina half groot">
+  <img src="readme-images/IMG_1208.JPG" width="375px" alt="Nieuws pagina half groot">
 
 
   ### Reflectie: 
 Oh ik heb een hele hoop geleerd. Het begon natuurlijk met het vormgeven van tekst. Ik had nooit op deze manier naar css gekeken. Ik moet nu voor het vak vormgeving een animatie maken en besef me nu pas hoe vet het was geweest als ik dat in css had gedaan. Wil me daar zekker nog verder in verdiepen. 
 
 Van grid en flex box heb ik ook veel gebruik gemaakt. Ik wordt er steeds beter in maar vind het nogsteeds lastig. Soms heb ik het idee dat het gwn onvoorspelbare dingen doet en dan krijg ik het niet opgelost. Zo leek het me leuk als je op de nieuws site nog een fun gridje te hebben. Met twee kollomen en dan het eerste en laatste stukje text span 2 en de middelste naast elkaar. Alleen stonden er twee dives op het stuk waardoor het helemaal mis ging en het me niet lukte. Na dat ik van alles geprobeerd had aan te passen heb ik het voor nu maar even op gegeven. OMG het is me net gelukt!!!!!!!!! Super blij! ik denk dat ik gister avond iets te moe was want ik heb volgensmij dezelfde stappen weer genomen en nu is het wel gelukt!!!
+
+ <img src="eadme-images/Scherm­afbeelding 2023-12-11 om 16.33.31.png" width="375px" alt="Nieuws scherm met de articels in een nieuwe grid bij groot en half groot scherm">
 
 Java Script snap ik eindelijk na al een goed blok inleiding programeren. Dus daar ben ik erg blij mee.
 
