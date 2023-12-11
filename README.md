@@ -273,7 +273,7 @@ Oh ik heb een hele hoop geleerd. Het begon natuurlijk met het vormgeven van teks
 
 Van grid en flex box heb ik ook veel gebruik gemaakt. Ik wordt er steeds beter in maar vind het nogsteeds lastig. Soms heb ik het idee dat het gwn onvoorspelbare dingen doet en dan krijg ik het niet opgelost. Zo leek het me leuk als je op de nieuws site nog een fun gridje te hebben. Met twee kollomen en dan het eerste en laatste stukje text span 2 en de middelste naast elkaar. Alleen stonden er twee dives op het stuk waardoor het helemaal mis ging en het me niet lukte. Na dat ik van alles geprobeerd had aan te passen heb ik het voor nu maar even op gegeven. OMG het is me net gelukt!!!!!!!!! Super blij! ik denk dat ik gister avond iets te moe was want ik heb volgensmij dezelfde stappen weer genomen en nu is het wel gelukt!!!
 
- <img src="Readme-images/Scherm­afbeelding 2023-12-11 om 16.33.31.png" width="375px" alt="Nieuws scherm met de articels in een nieuwe grid bij groot en half groot scherm">
+ <img src="readme-images/Scherm­afbeelding 2023-12-11 om 16.33.31.png" width="375px" alt="Nieuws scherm met de articels in een nieuwe grid bij groot en half groot scherm">
 
 Java Script snap ik eindelijk na al een goed blok inleiding programeren. Dus daar ben ik erg blij mee.
 
